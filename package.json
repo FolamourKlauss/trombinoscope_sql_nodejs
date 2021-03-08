@@ -1,0 +1,25 @@
+{
+  "name": "trombino-clock",
+  "version": "1.0.0",
+  "description": "Un trombinoscope pour l'école O'clock",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O-clock-Nemo/S04-trombi-luchidalgo.git"
+  },
+  "author": "TeamNemo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/O-clock-Nemo/S04-trombi-luchidalgo/issues"
+  },
+  "homepage": "https://github.com/O-clock-Nemo/S04-trombi-luchidalgo#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "pg": "^8.5.1"
+  }
+}

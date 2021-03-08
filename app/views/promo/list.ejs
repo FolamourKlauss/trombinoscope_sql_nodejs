@@ -1,0 +1,16 @@
+<%- include('../partials/header.ejs') %>
+
+<h1>Liste des promotions</h1>
+
+<ul>
+<% for (const promo of promos)  { %>
+    <li>
+        <a href="/promos/<%= promo.id %>">
+            <%= promo.name %>
+        </a>
+    </li>
+<% } %>
+</ul>
+
+
+<%- include('../partials/footer.ejs') %>
